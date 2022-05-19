@@ -53,6 +53,22 @@
   background-color: #cce5c7;
 }
 
+.bg-white{
+  background-color: #ffffff;
+}
+
+.small-font{
+  font-size: 13px;
+}
+
+.img-40{
+  width:45px;
+}
+
+.bg-green-lt{
+  background-color: #eaf4e9;
+}
+
 .bg-green-lg{
   background-color: #a8c8b9;
 }

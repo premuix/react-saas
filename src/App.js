@@ -17,7 +17,7 @@ function App() {
         <div className='container-fluid g-0'>
         <div className='row'>
       <div className='col-md-auto '> <Sidebar /> </div>
-      <div className='col dashbod-container p-5'>  <Dashbordmt /> </div> 
+      <div className='col dashbod-container p-5 h-100'>  <Dashbordmt /> </div> 
     </div>
      </div>
     
