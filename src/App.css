@@ -33,7 +33,7 @@
   border-left:#3b6f63 15px solid;
 }
 .width-450 {
-  width:450px;
+  width:450px !important;
 }
 
 .pro-avitar img{
@@ -49,9 +49,42 @@
   font-size:15px;
 }
 
-.dashbod-content{
+.bg-green{
+  background-color: #cce5c7;
+}
+
+.bg-green-lg{
+  background-color: #a8c8b9;
+}
+
+.dashbod-container{
   background: rgb(236,246,235);
   background: linear-gradient(90deg, rgba(236,246,235,1) 0%, rgba(255,255,255,1) 100%);
+  border-radius: 40px 40px 0;
+    height: 500px;
+    padding: 30px;
+}
+.img-middle{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-middle img{
+  padding: 15px;
+}
+
+
+
+.dash-card label{
+  font-size: 12px;
+  display: flow-root;
+  color: #000 ;
+}
+
+.dash-card .card-text {
+  color: #3b6f63;
+  font-weight: bold;
 }
 
 @keyframes App-logo-spin {

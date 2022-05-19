@@ -1,6 +1,9 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Body from './components/Body';
+import Sidebar from './components/Sidebar';
+import Dashbordmt from './components/Dashbordmt';
+
+
 
 
 function App() {
@@ -10,11 +13,14 @@ function App() {
       <header >
         <Navbar />
       </header>
-      
       <main className='py-5'>
         <div className='container-fluid g-0'>
-          <Body />
-        </div>
+        <div className='row'>
+      <div className='col-md-auto '> <Sidebar /> </div>
+      <div className='col dashbod-container p-5'>  <Dashbordmt /> </div> 
+    </div>
+     </div>
+    
       </main>
       </div>
       
