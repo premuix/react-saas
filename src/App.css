@@ -53,6 +53,39 @@
   background-color: #cce5c7;
 }
 
+.sidebar-nav a {
+  text-decoration: none;
+  color: #3b6f63;
+}
+
+.sidebar-nav a:hover {
+  
+  color: #151515;
+}
+
+.sidebar-nav {
+  margin-right: 20px;
+}
+
+.sidebar-nav li{
+  margin: 15px 0;
+}
+
+.sidebar-nav i{
+  padding: 0 22px 0 23px;
+}
+
+.active-col{
+  background-color: #3b6f63;
+  padding: 15px 11px 15px 15px;
+  border-radius: 0 25px 25px 0px;
+}
+
+.active-col i{
+  background-color: #cce5c7;
+  padding: 6px 9px;
+}
+
 .bg-white{
   background-color: #ffffff;
 }

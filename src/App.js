@@ -24,8 +24,9 @@ function App() {
       </main>
       </div>
       
-      <footer>
-        Footer
+      <footer className='p3 text-center'>
+        <h3>Footer Section</h3>
+        CopyRight
       </footer>
     </>
   );

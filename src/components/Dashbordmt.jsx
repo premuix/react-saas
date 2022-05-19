@@ -9,10 +9,11 @@ import Iconpri from '../images/icon-pri.jpg';
 export default function  Dashbordmt () {
   return (
 <>
-<div className="row dash-card "> 
+<div className="row dash-card  gx-5  "> 
     
-  <div className="col-md-3 shadow bg-white py-3 rounded-4 ">
-<div className="row g-3">
+  <div className="col-md-3 ">
+
+<div className="row shadow bg-white py-3 rounded-4 ">
   <div className="col-md-3 img-middle ">
   <img  src={Iconch} alt="prem"/>
   </div>
@@ -24,10 +25,11 @@ export default function  Dashbordmt () {
     </div>
   </div>
 </div>
+
 </div>
 
-<div className="col-md-3 shadow bg-white py-3 rounded-4 ">
-<div className="row g-3">
+<div className="col-md-3 ">
+<div className="row shadow bg-white py-3 rounded-4 ">
   <div className="col-md-3 img-middle ">
   <img  src={Icondoc} alt="prem"/>
   </div>
@@ -41,8 +43,8 @@ export default function  Dashbordmt () {
 </div>
 </div>
 
-<div className="col-md-3 shadow bg-white py-3 rounded-4 ">
-<div className="row g-3">
+<div className="col-md-3  ">
+<div className="row shadow bg-white py-3 rounded-4 ">
   <div className="col-md-3 img-middle ">
   <img  src={Iconlist} alt="prem"/>
   </div>
@@ -56,8 +58,8 @@ export default function  Dashbordmt () {
 </div>
 </div>
 
-<div className="col-md-3 shadow bg-white py-3 rounded-4 ">
-<div className="row g-3">
+<div className="col-md-3 ">
+<div className="row shadow bg-white py-3 rounded-4 ">
   <div className="col-md-3 img-middle ">
   <img  src={Iconpri} alt="prem"/>
   </div>
